@@ -1,0 +1,118 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #0a1f44, #123b7a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* CONTAINER */
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* PROFILE */
+.profile img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile h1 {
+    margin-bottom: 10px;
+}
+
+.profile p {
+    margin-bottom: 25px;
+    opacity: 0.8;
+}
+
+/* LINKS */
+.links a {
+    display: block;
+    background: white;
+    color: #0a1f44;
+    text-decoration: none;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background: #00c3ff;
+    color: white;
+    transform: scale(1.05);
+}
+/* PRODUK CONTAINER */
+.produk-container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+/* HEADER */
+.produk-header {
+    margin-bottom: 20px;
+}
+
+/* LOKASI */
+.produk-lokasi {
+    margin-bottom: 30px;
+}
+
+/* GALERI */
+.produk-galeri h2 {
+    margin-bottom: 10px;
+}
+
+.produk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+}
+
+.produk-grid img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.produk-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* BACK BUTTON */
+.produk-back {
+    margin-top: 20px;
+}
+
+.produk-back a {
+    display: inline-block;
+    text-decoration: none;
+    background: white;
+    color: #0a1f44;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.produk-back a:hover {
+    background: #00c3ff;
+    color: white;
+}
